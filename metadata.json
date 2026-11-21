@@ -1,0 +1,6 @@
+{
+  "name": "Kangshu AI Studio",
+  "description": "Studio cerita animasi mobile-first PWA khusus alur produksi Google Flow dengan Character Studio, progress bar real-time, dan cadangan proyek offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
