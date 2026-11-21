@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#9333EA" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="140" y1="140" x2="380" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <rect x="20" y="20" width="472" height="472" rx="96" stroke="rgba(255,255,255,0.16)" stroke-width="4" />
+  <!-- Clapperboard / Film Frame -->
+  <rect x="128" y="148" width="256" height="224" rx="34" fill="#0B0E14" fill-opacity="0.88" stroke="url(#accentGrad)" stroke-width="8" />
+  <path d="M132 196H380" stroke="rgba(255,255,255,0.2)" stroke-width="6" />
+  <path d="M168 148L192 196M236 148L260 196M304 148L328 196" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" />
+  <!-- Play Icon -->
+  <path d="M226 238C226 230.5 234.2 225.8 240.7 229.6L305.5 267.6C311.9 271.4 311.9 280.6 305.5 284.4L240.7 322.4C234.2 326.2 226 321.5 226 314V238Z" fill="url(#accentGrad)" />
+  <!-- Sparkle -->
+  <path d="M388 104L396 124L416 132L396 140L388 160L380 140L360 132L380 124L388 104Z" fill="#FDE047" />
+</svg>
